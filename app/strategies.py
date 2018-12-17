@@ -1,5 +1,4 @@
 #get history information of an stock
-from yahoo_finance import Share
 from iexfinance.stocks import Stock
 from iexfinance.stocks import get_historical_data
 from collections import defaultdict, OrderedDict
