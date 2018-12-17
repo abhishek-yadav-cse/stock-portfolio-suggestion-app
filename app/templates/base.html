@@ -1,0 +1,61 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap-theme.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static',filename='js/bootstrap.js') }}">
+      <link rel="stylesheet" href="{{ url_for('static',filename='js/npm.js') }}">
+      <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       <title>Home | Stock Porfolio Suggestion Engine</title>
+   </head>
+   <body background="https://images.pexels.com/photos/41301/business-cash-coin-concept-41301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="background-size:cover; height: 100%;">
+      <!-- Marketing messaging and featurettes
+         ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+      <div class="container marketing">
+         <!-- Three columns of text below the carousel -->
+         <div class="row justify-content-md-center">
+             <div>
+                 <h1 style="text-align: center;">Stock Portfolio Suggestion Engine </h1>
+             </div>
+          <div class="col-12 col-md-auto">
+            <div style="padding-left: 100px; padding-top: 50px;"><h4>Select a stock investment strategy (at most 2):</h4></div>
+          </div>
+         </div>
+
+         <div class="row">
+            <div style="margin-bottom: 50px"></div>
+{#            <div class="col-lg-1">#}
+{#            </div>#}
+            {% block content %} {% endblock %}
+            <div class="col-lg-1">
+            </div>
+         </div>
+         <!-- /.row -->
+      </div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <!-- FOOTER -->
+      <footer style="color: white; text-align: center; background: black; height:65px;">
+          <p><h3 style="padding-top:20px; opacity:0.9;">&copy; Abhishek, Avni, and Janal </h3></p>
+      </footer>
+      {#{% block content %}{% endblock %}#}
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"><\/script>')</script>
+      <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+      <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+      <script src="http://getbootstrap.com/assets/js/vendor/holder.min.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+   </body>
+</html>
