@@ -10,8 +10,9 @@ To run the application, please follow the is steps below:
 5. pip install flask
 6. pip install flask_wtf
 7. pip install iexfinance
-8. pip install pandas
-9. pip install pandas_datareader
-10. python run.py
-11. GOTO http://127.0.0.1:5000
+8. pip install yahoo_finance
+9. pip install pandas
+10. pip install pandas_datareader
+11. python run.py
+12. GOTO http://127.0.0.1:5000
 
